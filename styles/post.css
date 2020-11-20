@@ -1,0 +1,28 @@
+.post {
+  @apply leading-normal;
+}
+
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6 {
+  @apply font-display;
+}
+
+.post p + p {
+  @apply mt-4;
+}
+
+.post li + li {
+  @apply mt-2;
+}
+
+.post p + h2 {
+  @apply mt-8;
+}
+
+.post h2 + p {
+  @apply mt-2;
+}

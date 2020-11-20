@@ -1,0 +1,29 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #c2c2c2 #fbfbfb;
+}
+
+html::-webkit-scrollbar {
+  width: 6px;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  width: 4px;
+  background-color: #c2c2c2;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #fbfbfb;
+  border-left: 1px solid #e8e8e8;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+}

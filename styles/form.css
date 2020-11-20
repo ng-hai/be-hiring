@@ -1,0 +1,29 @@
+.label {
+  @apply font-bold text-sm;
+}
+
+.label > span {
+  @apply text-red;
+}
+
+.input {
+  @apply rounded-sm border border-solid border-grey-2 bg-white px-4 flex items-center appearance-none outline-none tracking-wide;
+}
+
+input.input {
+  @apply h-10;
+}
+
+textarea.input {
+  @apply py-2;
+}
+
+.input:focus,
+.input:focus-within {
+  @apply border-blue;
+}
+
+.input:invalid,
+.input.error {
+  @apply border-red shadow-none;
+}

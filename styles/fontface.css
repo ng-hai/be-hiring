@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'beVietnam';
+  src: url('/fonts/beVietnam-Regular.woff') format('woff'),
+    url('/fonts/beVietnam-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'beVietnam';
+  src: url('/fonts/beVietnam-Bold.woff') format('woff'),
+    url('/fonts/beVietnam-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'beVietnam Display';
+  src: url('/fonts/beVietnamDisplay-Regular.woff') format('woff'),
+    url('/fonts/beVietnamDisplay-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'beVietnam Display';
+  src: url('/fonts/beVietnamDisplay-Bold.woff') format('woff'),
+    url('/fonts/beVietnamDisplay-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

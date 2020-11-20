@@ -1,0 +1,21 @@
+{
+  "name": "beHiring",
+  "short_name": "beHiring",
+  "description": "Get newest available positions information at beGroup",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffbb00",
+  "background_color": "#ffbb00",
+  "start_url": "/",
+  "display": "standalone"
+}

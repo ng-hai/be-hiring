@@ -1,0 +1,20 @@
+.btn {
+  transition: all 200ms;
+  @apply relative h-10 px-4 inline-flex items-center justify-center whitespace-no-wrap rounded font-bold text-lg bg-yellow text-dark-blue select-none leading-none font-display;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  @apply bg-dark-blue text-white;
+}
+
+.btn:disabled {
+  @apply bg-grey-1 text-grey-3 pointer-events-none;
+}
+
+.btn > svg {
+  @apply fill-current w-6 h-6 mr-1;
+}
